@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { baseURL } from "../redux/store";
 import { useSelector, useDispatch } from "react-redux"
-import { useNavigate, Navigate } from "react-router-dom"
+import { Navigate } from "react-router-dom"
 import { authRequest, authRequestFailure, authRequestSuccess } from "../redux/auth/action";
 
 const Signup = () => {
@@ -16,7 +16,6 @@ const Signup = () => {
 
   const {isAuth} = useSelector((store) => store.authReducer);
   const dispatch = useDispatch();
-  const navigate = useNavigate();
 
   const handleData = (e) => {
     setUserData((prev) => {
@@ -42,7 +41,7 @@ const Signup = () => {
 
   //After Signup Navigating to Forum Page
   if(isAuth) {
-    return <Navigate to={"/"} />;
+    return <Navigate to={"/signin"} />;
   }
 
   return (

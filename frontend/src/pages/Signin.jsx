@@ -40,9 +40,11 @@ const Signin = () => {
       })
       
       if(loggedinUser.length != 0) {
+        alert("Signin Succesful")
         dispatch(authRequestSuccess(loggedinUser[0]));
       }
       else {
+        alert("Signin Failed, Invalid Credentials")
         dispatch(authRequestFailure());
       }
     } 

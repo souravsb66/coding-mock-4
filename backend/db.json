@@ -38,17 +38,13 @@
   ],
   "forum": [
     {
-      "question": {
-        "id": 1,
-        "userAvatar": "user_avatar.png",
-        "username": "JohnDoe123",
-        "questionTitle": "How to sort an array in JavaScript?",
-        "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
-        "language": "JavaScript",
-        "upvotes": 10,
-        "answers": 3,
-        "postedDate": "2023-05-30"
-      },
+      "id": 1,
+      "userAvatar": "user_avatar.png",
+      "username": "JohnDoe123",
+      "questionTitle": "How to sort an array in JavaScript?",
+      "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
       "answers": [
         {
           "userAvatar": "user_avatar2.png",
@@ -68,20 +64,17 @@
           "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
           "postedDate": "2023-06-01"
         }
-      ]
+      ],
+      "postedDate": "2023-05-30"
     },
     {
-      "question": {
-        "id": 2,
-        "userAvatar": "user_avatar2.png",
-        "username": "johndoe123",
-        "questionTitle": "How to use Python's 'for' loop?",
-        "questionDescription": "I'm new to Python and having trouble understanding the 'for' loop syntax. Can someone explain?",
-        "language": "Python",
-        "upvotes": 8,
-        "answers": 2,
-        "postedDate": "2023-07-10"
-      },
+      "id": 2,
+      "userAvatar": "user_avatar2.png",
+      "username": "johndoe123",
+      "questionTitle": "How to use Python's 'for' loop?",
+      "questionDescription": "I'm new to Python and having trouble understanding the 'for' loop syntax. Can someone explain?",
+      "language": "Python",
+      "upvotes": 8,
       "answers": [
         {
           "userAvatar": "user_avatar3.png",
@@ -95,20 +88,17 @@
           "answerText": "You can use the 'for' loop to iterate through lists, tuples, dictionaries, etc...",
           "postedDate": "2023-07-12"
         }
-      ]
+      ],
+      "postedDate": "2023-07-10"
     },
     {
-      "question": {
-        "id": 3,
-        "userAvatar": "user_avatar3.png",
-        "username": "samjohnson789",
-        "questionTitle": "How to create a responsive website?",
-        "questionDescription": "I want to build a website that looks good on all devices. Any tips for making it responsive?",
-        "language": "Web Development",
-        "upvotes": 15,
-        "answers": 4,
-        "postedDate": "2023-08-20"
-      },
+      "id": 3,
+      "userAvatar": "user_avatar3.png",
+      "username": "samjohnson789",
+      "questionTitle": "How to create a responsive website?",
+      "questionDescription": "I want to build a website that looks good on all devices. Any tips for making it responsive?",
+      "language": "Web Development",
+      "upvotes": 15,
       "answers": [
         {
           "userAvatar": "user_avatar4.png",
@@ -134,7 +124,8 @@
           "answerText": "Additionally, testing your website on different devices is crucial...",
           "postedDate": "2023-08-23"
         }
-      ]
+      ],
+      "postedDate": "2023-08-20"
     }
-  ]  
+  ]
 }

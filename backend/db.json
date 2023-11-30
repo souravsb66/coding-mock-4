@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "username": "johndoe123",
+      "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
+      "email": "johndoe123@example.com",
+      "password": "P@ssw0rd123"
+    },
+    {
+      "username": "janedoe456",
+      "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
+      "email": "janedoe456@example.com",
+      "password": "SecurePwd456"
+    },
+    {
+      "username": "samjohnson789",
+      "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
+      "email": "user777@example.com",
+      "password": "StrongPwd777"
+    },
+    {
+      "username": "testuser99",
+      "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
+      "email": "testuser99@example.com",
+      "password": "TestPass99"
+    },
+    {
+      "username": "newuser2023",
+      "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
+      "email": "newuser2023@example.com",
+      "password": "Welcome2023!"
+    }
+  ],
+  "questions": [
+    {
+      "question": {
+        "userAvatar": "user_avatar.png",
+        "username": "JohnDoe123",
+        "questionTitle": "How to sort an array in JavaScript?",
+        "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+        "language": "JavaScript",
+        "upvotes": 10,
+        "answers": 3,
+        "postedDate": "2023-05-30"
+      },
+      "answers": [
+        {
+          "userAvatar": "user_avatar2.png",
+          "username": "JaneSmith456",
+          "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+          "postedDate": "2023-05-31"
+        },
+        {
+          "userAvatar": "user_avatar3.png",
+          "username": "samjohnson789",
+          "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+          "postedDate": "2023-06-01"
+        },
+        {
+          "userAvatar": "user_avatar4.png",
+          "username": "EmilyBrownXYZ",
+          "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+          "postedDate": "2023-06-01"
+        }
+      ]
+    },
+    {
+      "question": {
+        "userAvatar": "user_avatar2.png",
+        "username": "johndoe123",
+        "questionTitle": "How to use Python's 'for' loop?",
+        "questionDescription": "I'm new to Python and having trouble understanding the 'for' loop syntax. Can someone explain?",
+        "language": "Python",
+        "upvotes": 8,
+        "answers": 2,
+        "postedDate": "2023-07-10"
+      },
+      "answers": [
+        {
+          "userAvatar": "user_avatar3.png",
+          "username": "samjohnson789",
+          "answerText": "In Python, the 'for' loop iterates over a sequence...",
+          "postedDate": "2023-07-11"
+        },
+        {
+          "userAvatar": "user_avatar.png",
+          "username": "JohnDoe123",
+          "answerText": "You can use the 'for' loop to iterate through lists, tuples, dictionaries, etc...",
+          "postedDate": "2023-07-12"
+        }
+      ]
+    },
+    {
+      "question": {
+        "userAvatar": "user_avatar3.png",
+        "username": "samjohnson789",
+        "questionTitle": "How to create a responsive website?",
+        "questionDescription": "I want to build a website that looks good on all devices. Any tips for making it responsive?",
+        "language": "Web Development",
+        "upvotes": 15,
+        "answers": 4,
+        "postedDate": "2023-08-20"
+      },
+      "answers": [
+        {
+          "userAvatar": "user_avatar4.png",
+          "username": "EmilyBrownXYZ",
+          "answerText": "For responsive web design, you can use CSS media queries...",
+          "postedDate": "2023-08-21"
+        },
+        {
+          "userAvatar": "user_avatar.png",
+          "username": "JohnDoe123",
+          "answerText": "Bootstrap and Flexbox are also great tools for creating responsive layouts...",
+          "postedDate": "2023-08-22"
+        },
+        {
+          "userAvatar": "user_avatar2.png",
+          "username": "JaneSmith456",
+          "answerText": "Consider using relative units like percentages and 'em' for responsiveness...",
+          "postedDate": "2023-08-22"
+        },
+        {
+          "userAvatar": "user_avatar.png",
+          "username": "JohnDoe123",
+          "answerText": "Additionally, testing your website on different devices is crucial...",
+          "postedDate": "2023-08-23"
+        }
+      ]
+    }
+  ]  
+}

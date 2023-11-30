@@ -1,4 +1,4 @@
-import { GET_FORUM_DATA, GET_FORUM_DATA_FAILURE, GET_FORUM_DATA_SUCCESS, GET_SINGLE_QUESTION_SUCCESS } from "./actionType"
+import { ADD_QUESTION_REQUEST, GET_FORUM_DATA, GET_FORUM_DATA_FAILURE, GET_FORUM_DATA_SUCCESS, GET_SINGLE_QUESTION_SUCCESS } from "./actionType"
 
 export const getForumData = () => {
     return ({type: GET_FORUM_DATA});
@@ -10,6 +10,10 @@ export const getForumDataFailure = () => {
 
 export const getForumDataSuccess = (payload) => {
     return ({type: GET_FORUM_DATA_SUCCESS, payload})
+}
+
+export const addQuestion = (payload) => {
+    return ({type: ADD_QUESTION_REQUEST, payload})
 }
 
 export const getSingleQuestionSuccess = (payload) => {

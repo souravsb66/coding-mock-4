@@ -4,6 +4,7 @@ import axios from "axios";
 import styled from "styled-components";
 import { baseURL } from "../redux/store";
 import {
+  addQuestion,
   getForumData,
   getForumDataFailure,
   getForumDataSuccess,
@@ -79,7 +80,15 @@ const Forum = () => {
 
     closeModal();
     questionData.postedDate = Date();
-    console.log(questionData);
+    
+    axios.post(`${baseURL}/forum`, questionData)
+    .then((res) => {
+      dispatch(addQuestion(res.data));
+    })
+    .catch((err) => {
+      console.log(err);
+    })
+
   };
 
   console.log(forumData);

@@ -1,39 +1,45 @@
 {
   "users": [
     {
+      "id": 1,
       "username": "johndoe123",
       "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
       "email": "johndoe123@example.com",
       "password": "P@ssw0rd123"
     },
     {
+      "id": 2,
       "username": "janedoe456",
       "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
       "email": "janedoe456@example.com",
       "password": "SecurePwd456"
     },
     {
+      "id": 3,
       "username": "samjohnson789",
       "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
       "email": "user777@example.com",
       "password": "StrongPwd777"
     },
     {
+      "id": 4,
       "username": "testuser99",
       "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
       "email": "testuser99@example.com",
       "password": "TestPass99"
     },
     {
+      "id": 5,
       "username": "newuser2023",
       "avatar": "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png",
       "email": "newuser2023@example.com",
       "password": "Welcome2023!"
     }
   ],
-  "questions": [
+  "forum": [
     {
       "question": {
+        "id": 1,
         "userAvatar": "user_avatar.png",
         "username": "JohnDoe123",
         "questionTitle": "How to sort an array in JavaScript?",
@@ -66,6 +72,7 @@
     },
     {
       "question": {
+        "id": 2,
         "userAvatar": "user_avatar2.png",
         "username": "johndoe123",
         "questionTitle": "How to use Python's 'for' loop?",
@@ -92,6 +99,7 @@
     },
     {
       "question": {
+        "id": 3,
         "userAvatar": "user_avatar3.png",
         "username": "samjohnson789",
         "questionTitle": "How to create a responsive website?",
